@@ -1,0 +1,6 @@
+---
+- name: install ansible latest version
+  become: yes
+  pip:
+    name: ansible
+    state: latest
